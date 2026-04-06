@@ -14,7 +14,7 @@ from nozzle_cooling import get_nozzle_cooling_data
 
 
 def start_streaming():
-    # Konfigurasi MQTT
+    # Konfigurasi MQTT Tes contoh menggunakan broker lokal
     mqtt_broker = "127.0.0.1"
     mqtt_port = 1883
     mqtt_topic = "engine/simulation/data"
